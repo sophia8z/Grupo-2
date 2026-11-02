@@ -1,4 +1,4 @@
-Sistema Drones con IA
+## Sistema Drones con IA
 
 Proyecto de la materia de Metodologías de Desarrollo de Software (Grupo 2). Es el sistema que nos asignó el Grupo 1: un ESP32-S3 que hace de puente entre un módulo de visión artificial y la controladora de vuelo (Pixhawk) de un dron.
 
@@ -51,8 +51,8 @@ tests/       pruebas unitarias y casos HIL
 Necesitas ESP-IDF 5.x o PlatformIO. Con ESP-IDF:
 
 ```bash
-git clone https://github.com/USUARIO/Sistema-Drones-con-IA.git
-cd Sistema-Drones-con-IA/firmware
+git clone https://github.com/sophia8z/Grupo-2.git
+cd Grupo-2/firmware
 idf.py set-target esp32s3
 idf.py build
 idf.py -p /dev/ttyUSB0 flash monitor
