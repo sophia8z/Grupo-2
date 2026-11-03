@@ -1,6 +1,6 @@
 ## Sistema Drones con IA
 
-Proyecto de la materia de Metodologías de Desarrollo de Software (Grupo 2). Es el sistema que nos asignó el Grupo 1: un ESP32-S3 que hace de puente entre un módulo de visión artificial y la controladora de vuelo (Pixhawk) de un dron.
+Proyecto del curso MDS (Grupo 2). Es el sistema que nos asignó el Grupo 1: un ESP32-S3 que hace de puente entre un módulo de visión artificial y la controladora de vuelo (Pixhawk) de un dron.
 
 ## Qué hace?
 
