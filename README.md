@@ -17,12 +17,17 @@ La interfaz entre el módulo de IA y el ESP32-S3 todavía está por confirmar co
 
 ## Equipo
 
-| Integrante | Rol | Épica a cargo |
-|---|---|---|
-| Integrante 1 | Scrum Master | E1. Ingestión de video por DMA y módulo de IA |
-| Integrante 2 | Product Owner | E2. Puente MAVLink y telemetría bidireccional |
-| Integrante 3 | Desarrollador 1 | E4. Servidor web y dashboard |
-| Integrante 4 | Desarrollador 2 | E3. Fail-Safe y control preventivo |
+| Integrante   | Rol                      | Estado   | Responsabilidad actual |
+| ------------ | ------------------------ | -------- | ---------------------- |
+| Integrante 2 | Product Owner + Scrum Master | Activo | Módulo de IA (Roboflow + Edge Impulse), documentación y evidencias |
+| Integrante 4 | Desarrollador 2         | Activo   | Firmware ESP32-S3: ingesta, MAVLink, alerta y Fail-Safe |
+
+## Historial del equipo
+
+| Integrante   | Rol original    | Estado   | Trabajo original | Qué pasó con ese trabajo |
+| ------------ | --------------- | -------- | ---------------- | ------------------------ |
+| Integrante 1 | Scrum Master    | Retirado (20/12/26) | E1. Ingestión DMA y módulo de IA | Reasignada al Desarrollador 1 |
+| Integrante 3 | Desarrollador 1 | Retirado (20/12/26) | E3. Fail-Safe y control preventivo | Reasignada al Desarrollador 1 (HIL pasa al backlog futuro) |
 
 Las historias de usuario van de HU-01 a HU-10 y están repartidas así: E1 (HU-01, HU-02), E2 (HU-03 a HU-05), E3 (HU-06 a HU-08) y E4 (HU-09, HU-10).
 
